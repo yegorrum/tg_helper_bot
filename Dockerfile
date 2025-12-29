@@ -16,7 +16,7 @@ FROM alpine:3.20
 
 WORKDIR /app
 
-COPY --from=builder /app/app .
+COPY --from=builder /app/tg_helper_bot .
 
 RUN apk add --no-cache ca-certificates
 
