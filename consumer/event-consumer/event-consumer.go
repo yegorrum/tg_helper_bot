@@ -2,8 +2,9 @@ package event_consumer
 
 import (
 	"log"
-	"tg_bot/events"
 	"time"
+
+	"github.com/yegorrum/tg_helper_bot/events"
 )
 
 type Consumer struct {

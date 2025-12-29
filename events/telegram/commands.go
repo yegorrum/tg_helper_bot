@@ -5,9 +5,10 @@ import (
 	"log"
 	"net/url"
 	"strings"
-	"tg_bot/clients/telegram"
-	e "tg_bot/lib"
-	"tg_bot/storage"
+
+	"github.com/yegorrum/tg_helper_bot/clients/telegram"
+	e "github.com/yegorrum/tg_helper_bot/lib"
+	"github.com/yegorrum/tg_helper_bot/storage"
 )
 
 const (

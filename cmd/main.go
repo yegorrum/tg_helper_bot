@@ -3,10 +3,11 @@ package main
 import (
 	"flag"
 	"log"
-	tgClient "tg_bot/clients/telegram"
-	event_consumer "tg_bot/consumer/event-consumer"
-	tgEvent "tg_bot/events/telegram"
-	"tg_bot/storage/files"
+
+	tgClient "github.com/yegorrum/tg_helper_bot/clients/telegram"
+	event_consumer "github.com/yegorrum/tg_helper_bot/consumer/event-consumer"
+	tgEvent "github.com/yegorrum/tg_helper_bot/events/telegram"
+	"github.com/yegorrum/tg_helper_bot/storage/files"
 )
 
 const (

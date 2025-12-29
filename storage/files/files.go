@@ -7,8 +7,9 @@ import (
 	"math/rand"
 	"os"
 	"path/filepath"
-	e "tg_bot/lib"
-	"tg_bot/storage"
+
+	e "github.com/yegorrum/tg_helper_bot/lib"
+	"github.com/yegorrum/tg_helper_bot/storage"
 )
 
 type Storage struct {

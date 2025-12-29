@@ -5,7 +5,8 @@ import (
 	"errors"
 	"fmt"
 	"io"
-	e "tg_bot/lib"
+
+	e "github.com/yegorrum/tg_helper_bot/lib"
 )
 
 type Storage interface {

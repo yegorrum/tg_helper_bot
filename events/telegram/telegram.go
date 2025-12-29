@@ -3,10 +3,10 @@ package events
 import (
 	"errors"
 
-	"tg_bot/clients/telegram"
-	"tg_bot/events"
-	e "tg_bot/lib"
-	"tg_bot/storage"
+	"github.com/yegorrum/tg_helper_bot/clients/telegram"
+	"github.com/yegorrum/tg_helper_bot/events"
+	e "github.com/yegorrum/tg_helper_bot/lib"
+	"github.com/yegorrum/tg_helper_bot/storage"
 )
 
 type Processor struct {
