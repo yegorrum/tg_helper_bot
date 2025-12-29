@@ -22,4 +22,6 @@ RUN apk add --no-cache ca-certificates
 
 EXPOSE 8080
 
-CMD ["./tg_helper_bot -token '8565782509:AAF5gy1a4bsFvS0_AV5KTH1Y6smTEheJ-xY'"]
+ENTRYPOINT ["./tg_helper_bot"]
+
+CMD ["-token=8565782509:AAF5gy1a4bsFvS0_AV5KTH1Y6smTEheJ-xY"]
