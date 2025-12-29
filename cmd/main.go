@@ -15,7 +15,6 @@ const (
 	batchSize   = 100
 )
 
-// 8565782509:AAF5gy1a4bsFvS0_AV5KTH1Y6smTEheJ-xY
 func main() {
 	token := mustToken()
 
