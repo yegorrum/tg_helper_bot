@@ -10,7 +10,7 @@ RUN go mod download
 COPY . .
 
 RUN CGO_ENABLED=0 GOOS=linux GOARCH=amd64 \
-    go build -o tg_helper_bot ./cmd -token '8565782509:AAF5gy1a4bsFvS0_AV5KTH1Y6smTEheJ-xY'
+    go build -o tg_helper_bot ./cmd
 
 FROM alpine:3.20
 
@@ -22,4 +22,4 @@ RUN apk add --no-cache ca-certificates
 
 EXPOSE 8080
 
-CMD ["./app"]
+CMD ["./tg_helper_bot -token '8565782509:AAF5gy1a4bsFvS0_AV5KTH1Y6smTEheJ-xY'"]
